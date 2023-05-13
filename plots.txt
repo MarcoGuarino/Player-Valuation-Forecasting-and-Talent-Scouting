@@ -1,0 +1,16 @@
+bar plots:
+average market_value by position
+average market_value by assists
+average market value by games won pl
+average market value by appearances
+average market value by goals
+
+last valuation winning rate pl scatter plot
+position histogram plot cats
+goals plot cats
+
+correlation matrix
+
+
+da fare:
+average market value by competitions
