@@ -43,6 +43,11 @@ You can find the files that we created for this task in the directory valuation_
 5. In models you can find the trained models.   
 
 ### Results 
+Tree-based ensamble methods outperform machine learning and deep learning classic algorithms.
+![](https://github.com/mguarins/BDC_project/blob/main/plots/MSE.png)
 ![](https://github.com/mguarins/BDC_project/blob/main/plots/tables.png)
-
+Why do tree-based models outperform deep learning and machine learning?
+1. Tree-based models can handle uninformative features better than deep learning models,  because they can split on the most informative features and ignore the rest.
+2. Tree-based models can preserve the distribution of the data better than deep learning models, because they do not apply nonlinear transformations that can distort the data distribution.
+3. Tree-based models can learn irregular functions better than deep learning models.
 
