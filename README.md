@@ -51,3 +51,18 @@ Why do tree-based models outperform deep learning and machine learning?
 2. Tree-based models can preserve the distribution of the data better than deep learning models, because they do not apply nonlinear transformations that can distort the data distribution.
 3. Tree-based models can learn irregular functions better than deep learning models.
 
+
+## Talent scouting
+To perform task2, in addition to the dataset obtained for task 1, we used the dataset of the fifa23 video game obtained from kaggle.
+
+You can find the files that we created for this task in the directory talent_scouting: 
+1. fifa23_dset_filter.ipynb is the file used to extract the dataset of the fifa 23 version, update 1.
+2. task2.ipynb contains all the necessary processes required for executing the task: pre-processing, encoding, pca, k-means, scouting algorithms.
+3. task2dataset.csv is a file obtained by the merging and the pre-processing phase in task2.ipynb. It is ready to load to skip these processes.
+4. fifa23players.csv is the file that contains the filtered dataset obtained in fifa23_dset_filter.ipynb.
+5. demo_task2.ipynb contains only a portion of task2.ipynb.
+
+### Results
+Task2 makes it possible to enter a footballer aged over 25 in the input and to obtain a set of young footballers (age equal to or less than 25) similar to the one given in the input.
+The algorithms in charge of searching for the set of similar players are different. One is based on cosine similarity, the other is based on a filtering process based on feature values
+
